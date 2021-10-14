@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9dc31a3bda3580f3425846f03027e049",
+    "revision": "8da1940477476a04fa3c27dc0b355c1b",
     "url": "/tours-descovery-react/index.html"
   },
   {
-    "revision": "7e91daea779671c2c2de",
-    "url": "/tours-descovery-react/static/css/main.b4b424f9.chunk.css"
+    "revision": "0339d3bae3ad66ad07e2",
+    "url": "/tours-descovery-react/static/css/main.d06c07af.chunk.css"
   },
   {
     "revision": "e26865ee9065fd180b8b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tours-descovery-react/static/js/2.35913d98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e91daea779671c2c2de",
+    "revision": "0339d3bae3ad66ad07e2",
     "url": "/tours-descovery-react/static/js/main.6a2668fe.chunk.js"
   },
   {
