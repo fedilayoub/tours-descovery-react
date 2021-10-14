@@ -196,6 +196,7 @@ main {
 }
 .tour-info h4 {
   margin-bottom: 0;
+  color: var(--clr-black);
 }
 .single-tour button {
   background: transparent;
