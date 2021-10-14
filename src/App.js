@@ -7,6 +7,7 @@ function App() {
   const [loading,setLoading] = useState(true);
   const [tours,setTours] = useState([]);
 
+//function that will remove the unwanted tour
 const removeTour = (id)=>{
   const newTours = tours.filter((tour)=>tour.id !== id)
   setTours(newTours)
@@ -17,9 +18,9 @@ const removeTour = (id)=>{
     setLoading(true);
     try {
           const response = await fetch(url);
-    const tours = await response.json();
+    const toursFromAPI = await response.json();
     setLoading(false);
-    setTours(tours);
+    setTours(toursFromAPI);
     } catch (error) {
       setLoading(false);
       console.log(error)
